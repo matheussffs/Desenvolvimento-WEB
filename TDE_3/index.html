@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Países</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Consulta de Países</h1>
+        <input type="text" id="country-input" placeholder="Digite o nome de um país">
+        <button onclick="buscarPais()">Buscar</button>
+        <div id="country-data">
+            <h2 id="country-name"></h2>
+            <img id="country-flag" src="" alt="Bandeira do país">
+            <p><strong>Capital:</strong> <span id="country-capital"></span></p>
+            <p><strong>População:</strong> <span id="country-population"></span></p>
+            <p><strong>Área:</strong> <span id="country-area"></span> km²</p>
+            <p><strong>Região:</strong> <span id="country-region"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
